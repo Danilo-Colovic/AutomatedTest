@@ -1,0 +1,48 @@
+--> Create your account - Email field should not be interactible
+
+Email input field on "Create your account page" is interactible, although it should be disabled.
+
+User: d.colovic
+
+Environment: Staging
+
+Steps to reproduce:
+
+1. Visit home page on link: https://www.yoursaga.com
+2. Click on "Sign in" button
+3. Look for a section with a header "CREATE AN ACCOUNT"
+4. Type in a prevously unused email address into the input field marked with label "Email address" above it
+5. Left click on the yellow button which contains a person icon and a text "Create an account"
+6. Look for a section with a header "YOUR PERSONAL INFORMATION"
+7. Try to interact with field labeled "Email"
+
+Expected result: Input field is pre - filled and cannot be changed
+Actual result: Input field is interactible
+
+Priority: P3
+
+*Sent screenshot*
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+--> Authentication - Password field validation is missing
+
+Password input field validation on "Authentication page" is missing.
+
+User: d.colovic
+
+Environment: Staging
+
+Steps to reproduce:
+
+1. Visit home page on link: https://www.yoursaga.com
+2. Click on "Sign in" button
+3. Look for a section with a header "ALREADY REGISTERED?"
+4. Left click on the green "Sign in" button with both fields being empty
+
+Expected result: Validation message: "1. Email is invalid. 2. Passowrd is invalid."
+Actual result: Validation message: "1. Email is invalid."
+
+Priority: P3
+
+*Sent screenshot*
